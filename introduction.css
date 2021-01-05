@@ -1,0 +1,194 @@
+@import url(https://fonts.googleapis.com/css?family=Open + Sans:400, 300, 700);
+
+html,body {
+  font-family: "Open Sans", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* 上方標題列 */
+header {
+  height: 60px;
+  color: #BF8F73;
+  background-color: #ffffff;
+  box-shadow: 0 4px 12px 0 rgba(0,0,0,0.08);
+}
+
+nav {
+  max-width: 950px;
+  margin: 0 auto;
+  height: 100%;
+  padding: 0 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav-title {
+  font-weight: bold;
+}
+
+.nav-link li {
+  display: inline;
+  margin: 8px;
+  padding: 8px 2px;
+}
+
+a {
+  color: #6B6B6B;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+a:hover {  
+  color: #BF8F73;
+  font-weight: bold;
+  
+}
+
+
+/* 自我介紹 */
+.introduction {
+  height: 550px;
+  display: flex;
+  max-width: 820px;
+  margin: 100px auto;
+  box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.08);
+  border-radius: 8px;  
+}
+
+.photo-box{
+    width: 410px;
+    height: 550px;
+    overflow: hidden;
+    border-radius: 8px 0 0 8px;
+}
+
+.photo{
+    max-height: 550px;  
+    margin-left: -200px;
+}
+
+.personal-info {
+  width: 50%;
+  background-position: center center;
+  background-size: cover;
+  margin: 30px;
+  letter-spacing: 1px; 
+  line-height: 20pt;
+}
+
+.name{
+  color:#949494;
+}
+
+.describe {
+  color:#BF8F73;
+}
+
+.desctibe-info {
+  color:#949494;
+}
+
+/* icon大小、顏色 */
+.fa-question-circle {  
+  margin: 8px 5px 0px;  
+  color:#497336;
+}
+
+.fa-comment-alt{
+  margin: 5px 7px 0px;
+  color:#497336;
+}
+
+/* 為什麼想成為工程師 */
+.reason{
+  max-width:820px;
+  margin: 100px auto;
+  color: #6B6B6B;
+}
+
+.reason-01 , .reason-02 , .reason-03 {
+  font-weight: bold;
+  color:#BF8F73;
+}
+
+.reason-02 , .reason-03 {
+  padding: 0px 0px 0px 30px
+}
+
+.reason-01-2 , .reason-02-2 , .reason-03-2, .reason-01-2-2  {
+  color: #949494;
+  padding: 0px 0px 0px 30px
+}
+
+/* 為了成為工程師，曾經做過什麼努力？ */
+.works{
+  max-width:820px;
+  margin: 100px auto;
+  color: #6B6B6B;
+}
+
+.works-info-01{
+  color: #949494;
+  padding: 0px 0px 0px 30px
+}
+
+.works-info {
+  font-weight: bold;
+  color:#BF8F73;
+  padding-bottom:15px;
+}
+
+/* 對於工程師的職業想像是什麼？ */
+
+.imgaine{
+  max-width:820px;
+  margin: 100px auto;
+  color: #6B6B6B;
+}
+
+.imgaine-info{
+  display:flex;
+  color: #949494;
+}
+
+/* 如果參與這個計畫，會怎麼安排學習時間？ */
+
+.study{
+  max-width:820px;
+  margin: 100px auto;
+  color: #6B6B6B;
+}
+
+.study-info{
+  display:flex;
+  color: #949494;
+}
+
+
+/* 預期會碰到什麼困難？*/
+
+.affliction{
+  max-width:820px;
+  margin: 100px auto;
+  color: #6B6B6B;
+}
+
+.affliction-info{
+  display:flex;
+  color: #949494;
+}
+
+/* 想要對我們說的事情？*/
+
+.speak{
+  max-width:820px;
+  margin: 100px auto;
+  color: #6B6B6B;
+}
+
+.speak-info{
+  display:flex;
+  color: #949494;
+}
